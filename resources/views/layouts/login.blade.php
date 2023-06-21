@@ -11,7 +11,7 @@
     <!--スマホ,タブレット対応-->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <!--サイトのアイコン指定-->
-    <link rel="icon" href="画像URL" sizes="16x16" type="image/png" />
+    <link rel="icon" href="public/images/icon1.png" sizes="16x16" type="image/png" />
     <link rel="icon" href="画像URL" sizes="32x32" type="image/png" />
     <link rel="icon" href="画像URL" sizes="48x48" type="image/png" />
     <link rel="icon" href="画像URL" sizes="62x62" type="image/png" />
@@ -22,10 +22,10 @@
 <body>
     <header>
         <div id = "head">
-        <h1><a><img src="images/logo.png"></a></h1>
-            <div id="">
-                <div id="">
-                    <p>〇〇さん<img src="images/arrow.png"></p>
+        <h1><a><img class="logo" src="images/atlas.png" alt="ロゴマーク"></a></h1>
+            <div id="head-menu">
+                <div id="icon">
+                    <p>〇〇さん<img class="icon1" src="images/icon1.png" alt="ユーザー画像"></p>
                 <div>
                 <ul>
                     <li><a href="/top">ホーム</a></li>
