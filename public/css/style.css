@@ -1,18 +1,24 @@
 @charset "utf-8";
 html{
     .logo{
-        width: 10%;
+        width: 25%;
         padding: 20px 0 10px 20px;
     }
-    .icon1{
-        width: 5%;
+    #icon img{
+        width: 100%;
     }
 }
 body{
+
 }
 /* header */
 header{
     background:#186AC9;
+}
+
+#head #head-menu #icon{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* main content */
@@ -26,4 +32,22 @@ header{
 #side-bar{
     flex: 0 0 19%;
     border-left: 1px solid #727272;
+}
+
+/* アコーディオン */
+#head{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.accordion{
+    display: flex;
+    /* vertical-align: middle; */
+}
+.accordion p {
+    padding-top: 12%;
+}
+.accordion .accordion-menu{
+/* display: none; */
 }

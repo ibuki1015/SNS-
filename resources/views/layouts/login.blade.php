@@ -22,16 +22,20 @@
 <body>
     <header>
         <div id = "head">
-        <h1><a><img class="logo" src="images/atlas.png" alt="ロゴマーク"></a></h1>
+        <h1><a href="/top"><img class="logo" src="images/atlas.png" alt="ロゴマーク"></a></h1>
             <div id="head-menu">
-                <div id="icon">
-                    <p>〇〇さん<img class="icon1" src="images/icon1.png" alt="ユーザー画像"></p>
-                <div>
+                <div class="accordion">
+                    <p>〇〇さん</p>
+                    <div class="accordion-menu">
+
                 <ul>
-                    <li><a href="/top">ホーム</a></li>
-                    <li><a href="/profile">プロフィール</a></li>
-                    <li><a href="/logout">ログアウト</a></li>
+                    <li><a class="home side" href="/top">ホーム</a></li>
+                    <li><a class="profile side" href="/profile">プロフィール</a></li>
+                    <li><a class="logout side" href="/logout">ログアウト</a></li>
                 </ul>
+                </div>
+                 <div id="icon">
+                <img src="images/icon1.png" alt="ユーザー画像">
             </div>
         </div>
     </header>
@@ -58,7 +62,14 @@
     </div>
     <footer>
     </footer>
-    <script src="JavaScriptファイルのURL"></script>
-    <script src="JavaScriptファイルのURL"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        $(function() {
+            $("faq dt").on("click",function() {
+                alert("反応");
+            })
+        })
+    </script>
 </body>
 </html>
