@@ -44,7 +44,7 @@ Route::get('/follow-list','PostsController@index');
 Route::get('/follower-list','PostsController@index');
 
 //ログアウト
-Route::get('/logout','Auth/LoginController@logout');
+Route::get('/home','Auth/LoginController@logout');
 
 //トップページ
 Route::get('/top','PostsController@index');

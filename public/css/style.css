@@ -2,10 +2,12 @@
 html{
     .logo{
         width: 25%;
-        padding: 20px 0 10px 20px;
+        padding: 15px 0 10px 15px;
     }
-    #icon img{
-        width: 100%;
+    #icon  img{
+        width: 70%;
+        height: 65%;
+        padding-top: 18%;
     }
 }
 body{
@@ -39,15 +41,28 @@ header{
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding: 10px 10px;
 
 }
 .accordion{
     display: flex;
     /* vertical-align: middle; */
 }
-.accordion p {
-    padding-top: 12%;
+
+.accordion p{
+    padding-top: 24px;
+    padding-right: 20px;
 }
-.accordion .accordion-menu{
-/* display: none; */
+
+.accordion-menu ul{
+    padding-top: 10px;
+    /* display: none; */
+}
+
+.sub-menu ul li{
+  /* display: none; */
+}
+
+#icon img{
+    cursor: pointer;
 }

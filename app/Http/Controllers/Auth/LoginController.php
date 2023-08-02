@@ -52,11 +52,11 @@ class LoginController extends Controller
         return view("auth.login");
         }
         //ログアウト
-        public function Logout(Request $request){
+        public function logout(Request $request){
             Auth::logout();
             return redirect()->route('logout');
 
-    }
+        }
 
 
 }

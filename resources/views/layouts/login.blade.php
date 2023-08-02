@@ -26,18 +26,23 @@
             <div id="head-menu">
                 <div class="accordion">
                     <p>〇〇さん</p>
-                    <div class="accordion-menu">
 
-                <ul>
-                    <li><a class="home side" href="/top">ホーム</a></li>
-                    <li><a class="profile side" href="/profile">プロフィール</a></li>
-                    <li><a class="logout side" href="/logout">ログアウト</a></li>
-                </ul>
+                    <div id="icon">
+                    <a href="#"><img src="images/icon1.png" alt="ユーザー画像">
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="/top">ホーム</a></li>
+                            <li><a href="/profile">プロフィール</a></li>
+                            <li><a href="/home">ログアウト</a></li>
+                        </ul>
+                </a>
+
+
+                    </div>
+                    </div>
                 </div>
-                 <div id="icon">
-                <img src="images/icon1.png" alt="ユーザー画像">
-            </div>
         </div>
+    </div>
     </header>
     <div id="row">
         <div id="container">
@@ -65,11 +70,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/app.js"></script>
     <script>
-        $(function() {
-            $("faq dt").on("click",function() {
-                alert("反応");
-            })
-        })
     </script>
 </body>
 </html>
