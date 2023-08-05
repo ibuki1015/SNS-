@@ -26,6 +26,7 @@
             <div id="head-menu">
                 <div class="accordion">
                     <p>〇〇さん</p>
+                    </div>
 
                     <div id="icon">
                     <a href="#"><img src="images/icon1.png" alt="ユーザー画像">
@@ -37,8 +38,6 @@
                         </ul>
                 </a>
 
-
-                    </div>
                     </div>
                 </div>
         </div>

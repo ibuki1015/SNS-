@@ -5,22 +5,25 @@ html{
         padding: 15px 0 10px 15px;
     }
     #icon  img{
-        width: 70%;
-        height: 65%;
-        padding-top: 18%;
+        width: 35px;
+        height: 35px;
+        padding-top: 40%;
     }
 }
-body{
 
-}
 /* header */
 header{
     background:#186AC9;
 }
 
-#head #head-menu #icon{
+#head #head-menu {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+#head{
+    width: 95%;
+    height: 10%;
 }
 
 /* main content */
@@ -56,11 +59,11 @@ header{
 
 .accordion-menu ul{
     padding-top: 10px;
-    /* display: none; */
 }
 
 .sub-menu ul li{
-  /* display: none; */
+  display: none;
+
 }
 
 #icon img{
